@@ -18,6 +18,10 @@
         <java.version>11</java.version>
         <jacoco.version>0.8.7</jacoco.version>
         <sonar.version>3.8.0.2131</sonar.version>
+
+        <sonar.coverage.jacoco.xmlReportPaths>
+            ../S3_testDavidGarrido-DAGB/target/site/jacoco-aggregate/jacoco.xml
+        </sonar.coverage.jacoco.xmlReportPaths>
         
     </properties>
     <dependencies>
@@ -36,18 +40,9 @@
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>${jacoco.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>${sonar.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.sonarsource.scanner.api</groupId>
-            <artifactId>sonar-scanner-api</artifactId>
-            <version>2.16.2.588</version>
-        </dependency>
 
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -74,11 +69,11 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>${sonar.version}</version>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.sonarsource.scanner.maven</groupId>-->
+<!--                <artifactId>sonar-maven-plugin</artifactId>-->
+<!--                <version>${sonar.version}</version>-->
+<!--            </plugin>-->
         </plugins>
 
     </build>
