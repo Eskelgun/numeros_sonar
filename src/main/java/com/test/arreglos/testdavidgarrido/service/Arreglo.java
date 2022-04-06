@@ -30,7 +30,7 @@ public class Arreglo {
           throw new WrongItemArrayException("Sólo se permiten números en el arreglo | Valor incorrecto: " + item.toString());
         }
       }
-//      Contar concurrencia
+//      Contar concurrencia.
       return Collections.frequency(arreglo, numero);
     }
   }
