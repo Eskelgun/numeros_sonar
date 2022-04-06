@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 public class Arreglo {
 
   public Integer numeroConcurrencia(List arreglo, Integer numero) throws ArrayGenericException {
-//    Validar parametros
+//    Validar parametros.
     if (arreglo == null || arreglo.isEmpty() || numero == null) {
       System.err.println("La lista y/o el número a buscar no son validos");
       throw new BadParamException("La lista y/o el número a buscar no son validos");

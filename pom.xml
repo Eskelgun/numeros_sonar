@@ -18,9 +18,6 @@
         <java.version>11</java.version>
         <jacoco.version>0.8.7</jacoco.version>
 
-        <sonar.projectKey>Eskelgun_numeros_sonar</sonar.projectKey>
-        <sonar.organization>eskelgun</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencies>
         <dependency>
