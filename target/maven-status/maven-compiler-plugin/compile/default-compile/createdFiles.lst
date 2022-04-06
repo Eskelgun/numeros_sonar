@@ -1,0 +1,5 @@
+com\test\arreglos\testdavidgarrido\exceptions\BadParamException.class
+com\test\arreglos\testdavidgarrido\exceptions\ArrayGenericException.class
+com\test\arreglos\testdavidgarrido\TestDavidGarridoApplication.class
+com\test\arreglos\testdavidgarrido\exceptions\WrongItemArrayException.class
+com\test\arreglos\testdavidgarrido\service\Arreglo.class
