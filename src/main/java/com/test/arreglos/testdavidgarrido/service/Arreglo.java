@@ -18,7 +18,7 @@ public class Arreglo {
       throw new BadParamException("La lista y/o el número a buscar no son validos");
 
     } else {
-//      Validar arreglo sólo contenga números
+//      Validar arreglo sólo contenga números.
 
       Matcher matcher;
       Pattern pattern = Pattern.compile("^[^0-9]$");
